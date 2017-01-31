@@ -2,14 +2,20 @@ package main
 
 import "fmt"
 import "os"
-import "math"
+import "strconv"
 //import "./log.go"
 
 func main() {
-    arg := os.Args[1]
-    calculateLog(arg);
-}
+  log2(20)
 
-func calculateLog(x float64){
-	fmt.Println(math.Log2(x))
+  arg1 := os.Args[1]
+	arg2 := os.Args[2]
+  fmt.Println(arg1, arg2)
+	
+	argFloat, err := strconv.ParseFloat(arg1, 64)
+	argInt, err := strconv.ParseInt(arg2, 10, 64)
+  
+	if err == nil {
+		logbcli(argFloat, argInt)
+	}
 }
