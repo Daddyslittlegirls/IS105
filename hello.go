@@ -1,60 +1,20 @@
 package main
 
 import "fmt"
-import "math"
-
-func printChris() {
-	fmt.Println("Christoffer sier hei")
-}
+import "os"
 
 func main() {
-<<<<<<< HEAD
-<<<<<<< HEAD
-	fmt.Println("skyt meg xddd")
 
-	fmt.Println("kys123123")
-=======
-<<<<<<< HEAD
+	fmt.Println("Hello, 世界")
+	fmt.Println("Elias var her")
 	fmt.Println("Hallo, Jørgen MS var her")
-=======
-	fmt.Println("Hello, 世界")
->>>>>>> d209a45646246176a4b38c5cdaca67e607cd63c8
-<<<<<<< HEAD
-=======
-	fmt.Println("Hello, 世界")
->>>>>>> 97025eead48f39cf27455df515867e7a3cffc6bd
 	fmt.Println("Jonas")
-	log2()
 	fmt.Println("Søvre var her")
-<<<<<<< HEAD
-<<<<<<< HEAD
-	fmt.Println("Elias er en pung")
-	fmt.Println("JK elias er en good girl")
-=======
->>>>>>> 7d6923075edfbdeba0690b5054f372edb5962218
-=======
->>>>>>> 05d8c936ca5d3ab078a758e1b9512c8047f7b8d5
 	fmt.Println("Dette er en test. Kos og klemz, Vegard.")
-<<<<<<< HEAD
-<<<<<<< HEAD
-}
-func log2() {
-	fmt.Println(math.Log2(8))
-=======
+	fmt.Println("Christoffer sier hei")
 	fmt.Println("Mosvold Salvesen")
+	fmt.Println("Andrea gjør en endring")
+	log2(8.0)
+  
 }
-func log2() {
-	fmt.Println(math.Log2(8))
->>>>>>> 7998197b64daf3ac8bac1172b8c9ccc8449ae757
->>>>>>> d209a45646246176a4b38c5cdaca67e607cd63c8
-<<<<<<< HEAD
->>>>>>> master
-=======
-=======
-	printChris()
-}
-func log2() {
-	fmt.Println(math.Log2(8))
->>>>>>> 97025eead48f39cf27455df515867e7a3cffc6bd
->>>>>>> 05d8c936ca5d3ab078a758e1b9512c8047f7b8d5
-}
+
