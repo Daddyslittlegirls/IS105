@@ -12,7 +12,7 @@ func main() {
 <<<<<<< HEAD
 	fmt.Println("skyt meg xddd")
 
-	fmt.Println("kys")
+	fmt.Println("kys123123")
 =======
 <<<<<<< HEAD
 	fmt.Println("Hallo, Jørgen MS var her")
