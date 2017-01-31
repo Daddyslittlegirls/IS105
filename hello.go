@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func printChris() {
-	System.out.println("Christoffer sier hei")
+	fmt.Println("Christoffer sier hei")
 }
 
 func main() {
