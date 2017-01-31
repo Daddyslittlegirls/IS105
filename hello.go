@@ -4,6 +4,9 @@ import "fmt"
 import "math"
 
 func main() {
+<<<<<<< HEAD
+	fmt.Println("Hallo, Jørgen MS var her")
+=======
 	fmt.Println("Hello, 世界")
 <<<<<<< HEAD
 	fmt.Println("Jonas")
