@@ -6,6 +6,8 @@ import "math"
 func main() {
 <<<<<<< HEAD
 	fmt.Println("skyt meg xddd")
+
+	fmt.Println("kys")
 =======
 <<<<<<< HEAD
 	fmt.Println("Hallo, Jørgen MS var her")
