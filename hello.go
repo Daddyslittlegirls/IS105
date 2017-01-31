@@ -4,7 +4,7 @@ import "fmt"
 import "math"
 
 func main() {
-	fmt.Println("Hello, 世界")
+	fmt.Println("skyt meg xddd")
 <<<<<<< HEAD
 	fmt.Println("Jonas")
 	log2()
@@ -15,4 +15,3 @@ func main() {
 func log2() {
 	fmt.Println(math.Log2(8))
 }
-	
