@@ -21,7 +21,7 @@ func main() {
 >>>>>>> d209a45646246176a4b38c5cdaca67e607cd63c8
 <<<<<<< HEAD
 =======
-	fmt.Println("Hello, 世界")
+	fmt.Println("bjornar var her")
 >>>>>>> 97025eead48f39cf27455df515867e7a3cffc6bd
 	fmt.Println("Jonas")
 	log2()
