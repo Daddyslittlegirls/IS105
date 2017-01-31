@@ -34,6 +34,7 @@ func log2() {
 	fmt.Println(math.Log2(8))
 =======
 	fmt.Println("Mosvold Salvesen")
+	fmt.Println("bjornar var her")
 }
 func log2() {
 	fmt.Println(math.Log2(8))
