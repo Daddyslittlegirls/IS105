@@ -7,6 +7,3 @@ func log2(x float64){
 	fmt.Println(math.Log2(x))
 }
 
-func hei() {
-  fmt.Println("esjaesak");
-}
