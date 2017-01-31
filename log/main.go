@@ -11,16 +11,11 @@ func calculateLog(x float64){
 }
 
 func main() {
-	log2(20)
 
     arg := os.Args[1]
-    fmt.Println(arg)
-	
-	
+
 	argFloat, err := strconv.ParseFloat(arg, 64)
 	if err == nil {
 		calculateLog(argFloat)
 	}
 }
-
-
