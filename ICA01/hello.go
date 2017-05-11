@@ -15,6 +15,6 @@ func main() {
 	fmt.Println("Mosvold Salvesen")
 	fmt.Println("Andrea gjør en endring")
 	fmt.Println("LOLOL denzern")
-  
+	fmt.Println("Dette er en endring. Kos og klems, Vegard")
 }
 
