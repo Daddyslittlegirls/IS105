@@ -6,7 +6,7 @@ import "os"
 func main() {
 
 	fmt.Println("Hello, 世界")
-	fmt.Println("Elias var her")
+	fmt.Println("Elias var her XDD ! SISTE COMMIT EVER LOL")
 	fmt.Println("Hallo, Jørgen MS var her")
 	fmt.Println("Jonas")
 	fmt.Println("Søvre var her")
@@ -14,7 +14,5 @@ func main() {
 	fmt.Println("Christoffer sier hei")
 	fmt.Println("Mosvold Salvesen")
 	fmt.Println("Andrea gjør en endring")
-	fmt.Println("LOLOL denzern")
-	fmt.Println("Dette er en endring. Kos og klems, Vegard")
-}
 
+}
