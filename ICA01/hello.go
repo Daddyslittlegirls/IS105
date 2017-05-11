@@ -14,6 +14,7 @@ func main() {
 	fmt.Println("Christoffer sier hei")
 	fmt.Println("Mosvold Salvesen")
 	fmt.Println("Andrea gjør en endring")
+	fmt.Println("LOLOL denzern")
   
 }
 
