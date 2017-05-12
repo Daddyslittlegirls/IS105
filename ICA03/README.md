@@ -1,7 +1,2 @@
-# IS105
-
-Main kjøres med: go run main.go log.go
-
-locli kjøres med: <filnavn> Arg1(float)
-
-logbcli kjøres med: <filnavn> Arg1(float) Arg2(int)
+# is105-ica03
+Repository for IS-105 experiments with encoding of signs and symbols.
