@@ -3,10 +3,12 @@
 # Oppgave 1
 
 ## A
-
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA07/Vedlegg/Server.png)
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA07/Vedlegg/Client.png)
 ## B
-
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA07/Vedlegg/Resultat.png)
 ## C
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA07/Vedlegg/Wireshark.png)
 ### i
 #### 1
 
