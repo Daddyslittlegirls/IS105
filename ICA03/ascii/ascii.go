@@ -1,4 +1,4 @@
-package ascii
+package main
 
 import "fmt"
 
@@ -18,12 +18,15 @@ const Ascii = "\x00\x01\x02\x03\x04\x05\x06\x07\x08\x09\x0a\x0b\x0c\x0d\x0e\x0f"
 // 3F ? 111111
 // 40 @ 1000000
 // ...
-func IterateOverASCIIStringLiteral(sl string) {
-	for i := 0; i < len(Ascii); i++ {
-		fmt.Printf("%X \n", Ascii[i])
-		fmt.Printf("%q \n", Ascii[i])
-		fmt.Printf("%b \n", Ascii[i])
-		// ||	fmt.Printf("%X %+q %b \n", Ascii[i], sl[i], sl[i])
+
+func main() {
+	IterateOverASCIIStringLiteral(Ascii)
+}
+
+
+func IterateOverASCIIStringLiteral(text string) {
+	for teller := 0; teller < len(text); teller++ {
+		fmt.Printf("%X %q %b \n", text[teller], text[teller], text[teller])
 	}
 }
 
