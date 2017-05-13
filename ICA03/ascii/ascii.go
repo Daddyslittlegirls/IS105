@@ -20,13 +20,14 @@ const Ascii = "\x00\x01\x02\x03\x04\x05\x06\x07\x08\x09\x0a\x0b\x0c\x0d\x0e\x0f"
 // ...
 
 func main() {
-	IterateOverASCIIStringLiteral(Ascii)
+	// iterateOverASCIIStringLiteral(Ascii) Oppgave 1
+	fmt.Printf(greetingASCII())
 }
 
 
-func IterateOverASCIIStringLiteral(text string) {
+func iterateOverASCIIStringLiteral(text string) {
 	for teller := 0; teller < len(text); teller++ {
-		fmt.Printf("%X %q %b \n", text[teller], text[teller], text[teller])
+		fmt.Printf("%X %c %b \n", text[teller], text[teller], text[teller])
 	}
 }
 
@@ -40,7 +41,7 @@ func IterateOverASCIIStringLiteral(text string) {
 // Funksjonen greetingASCII() returnerer en variabel av typen string,
 // som inneholder kun ASCII tegn (ikke utvidet ASCII).
 //Gjelder oppgave 1b
-func GreetingASCII() string {
+func greetingASCII() string {
 	a := []byte("\x22\x48\x65\x6C\x6C\x6F\x20\x3A\x2D\x29\x22")
 	return string(a)
 }
