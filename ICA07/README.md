@@ -33,8 +33,12 @@ Teoretisk sett kan en UDP pakke være 65,535 bytes (8 byte for "tittelen" og 65,
 ### ii
 
 ### iii
+Fragmentering er en prosess som deler datagrammer i mindre biter, slik at de kan bli overført uten å overskride MTU grensen.
 
 ### iv
+Man bruker UDP der fart er viktigst. Det er mest brukt steder hvor et par tapte pakker ikke ødelegger det som blir sendt. Streaming av videoer, VoIP og spill er eksempler på tjenester som utnytter UDP.
+
+TCP brukes på steder hvor man ikke er så opptatt er fart, men mer opptatt av at man får pakkene slik de var når de ble sendt. Noen gode eksempler er web, e-mail (SMTP/IMAP/POP) og overføring av filer (FTP).
 
 # Oppgave 3
 
