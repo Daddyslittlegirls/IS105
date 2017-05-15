@@ -1,4 +1,4 @@
-# ICA07
+# ICA06
 
 # Oppgave 1
 
