@@ -1,0 +1,37 @@
+<html>
+<head>
+
+</head>
+<body>
+    <h2> {{.Name}}</h2>
+    <p>Oppgave: {{.Description}}</p>
+    <form action="/">
+        Søk google maps.. <input type="text" name="place" placeholder="UIA kristiansand">
+        <input type="submit" value="Søk!">
+    </form> -->
+    <-- <iframe
+            width="100%"
+            height="70%"
+            frameborder="0" style="border:0"
+            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDxwGLdsYA1zvYqq_HzkoaLNLnr7uE4OII
+            &q={{.MapData}}" allowfullscreen>
+    </iframe> -->
+    <a href="https://www.accuweather.com/no/no/kristiansand/261324/weather-forecast/261324" class="aw-widget-legal">
+<!--
+By accessing and/or using this code snippet, you agree to AccuWeather’s terms and conditions (in English) which can be found at https://www.accuweather.com/en/free-weather-widgets/terms and AccuWeather’s Privacy Statement (in English) which can be found at https://www.accuweather.com/en/privacy.
+-->
+</a>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/tlgt7ltaDHk" frameborder="0" allowfullscreen>
+  </iframe>
+  <div id="awcc1491318379494"
+    class="aw-widget-current"
+    data-locationkey="261324"
+    data-unit="c"
+    data-language="no"
+    data-useip="false"
+    data-uid="awcc1491318379494">
+  </div>
+  <script type="text/javascript" src="https://oap.accuweather.com/launch.js">
+  </script>
+</body>
+</html>
