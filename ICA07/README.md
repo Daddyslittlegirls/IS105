@@ -26,7 +26,9 @@ Teoretisk sett kan en UDP pakke være 65,535 bytes (8 byte for "tittelen" og 65,
 # Oppgave 2
 
 ## A
-
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA07/Vedlegg/TCPserver.png)
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA07/Vedlegg/TCPclient.png)
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA07/Vedlegg/TCPservclient.png)
 ## B
 ### i
 
