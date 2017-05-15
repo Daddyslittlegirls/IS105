@@ -1,7 +1,5 @@
-# IS105
+# ICA07
 
-Main kjøres med: go run main.go log.go
+# Oppgave 1
 
-locli kjøres med: <filnavn> Arg1(float)
-
-logbcli kjøres med: <filnavn> Arg1(float) Arg2(int)
+## A
