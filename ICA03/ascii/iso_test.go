@@ -1,6 +1,7 @@
 package Ascii
 
 import "testing"
+import "fmt"
 
 func ExtendedGreetingASCII() string {
 	a:= []byte("\x53\x61\x6c\x75\x74\x2c\x20\xc3\xa7\x61\x20\x76\x61" +
@@ -16,6 +17,7 @@ func TestExtendedGreetingASCII(t *testing.T) {
 
 func isExtendedASCII(s string) bool {
     for _, c := range s {
+			fmt.Println(c)
         if c < 128 {
             return false
         }
