@@ -18,6 +18,7 @@ Det er kun 1 prosess som kjører foreløpig. Hvis man kobler seg på instancen s
 Om prosessene ikke kjører er de i “sleep/idle” tilstand. De ligger inaktive og venter på input for at de skal kjøre.
 
 #### Hva er maskinvarespesifikasjon til din datamaskin (noter prosessortype, prosessorarkitektur, klokkefrekvens, informasjon om primært minne, størrelse på cache (både L1, L2 og L3 er ønskelig))?
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA02/Vedlegg/ICA0201.png)
 
 #### Hvor mange CPU-“cores” har du tilgjengelig på din maskin?
 | Mosvold  | Søvre  | Jonas  | Vegard  | Andrea  | Christoffer  |
@@ -32,7 +33,7 @@ Ved å skrive inn kommandoen "lscpu" på den virtuelle serveren fant jeg ut av h
 | 2  | 2  | 2  | 2  | 2  | 2  |
 
 #### Noter. Finn ut hvilken prosess i ditt system bruker mest minne. Beskrive denne prosessen kort.
-
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA02/Vedlegg/ICA0202.png)
 Kernel is utilized by the OS for all sort of operations such as disk writes, cpu controls, etc.
 
 #### Hvilke komponenter (både fysiske og abstrakte) i deres datasystemer er involvert i oppstart, administrasjon og avslutning av prosesser? Definer komponentene du nevner
@@ -48,8 +49,11 @@ Når vi har limt inn teksten så kan vi lagre den direkte på serveren våres. D
 Skrev GOOS=darwin for mac
 GOOS=windows for windows
 dette skal skrives for “go build hello.go” for å velge hvilken plattform du vil lage en executable for. 
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA02/Vedlegg/ICA0203.png)
 
 Her ser man “hello” filen som kan kjøres på mac og “hello.exe” som kan kjøres på windows.
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA02/Vedlegg/ICA0204.png)
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA02/Vedlegg/ICA0205.png)
 
 ## Oppgave 3
 sum_test oppgir feil hvis tallene i sum_tests_int8 (struct) overstiger den gitte talltypen. For eksempel hvis structen består av int8 variabler vil alt under -128 eller over 127 overstige int8. Dette er fordi int8 er en datatype som består av en byte. 
@@ -59,8 +63,10 @@ sum_test oppgir feil hvis tallene i sum_tests_int8 (struct) overstiger den gitte
 
 ## Oppgave 5
 #### Hva kan du si noe om antall prosesser og tråder, som programmet bruker på ditt system?
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA02/Vedlegg/ICA0206.png)
 
 Øverste bilde ser vi at det er 4 tråder kjørende på serveren i denne prosessen boring01.
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA02/Vedlegg/ICA0207.png)
 
 Tråder: 5
 Prosess: 1
@@ -69,4 +75,5 @@ Aktiv.
 #### Hvordan kan du stoppe prosessen? 
 Ctrl + C
 										
-Dette skjermbildet viser prosessen boring 01 som kjører på serveren. 
+Dette skjermbildet viser prosessen boring 01 som kjører på serveren.
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA02/Vedlegg/ICA0208.png)
