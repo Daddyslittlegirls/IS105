@@ -8,7 +8,7 @@ For å komme frem til dette åpnet vi taskmanageren som vi kom frem til ved bruk
 For å finne ut av hvor mange prosesser som kjørte på den virtuelle server i nettskyen skrev jeg kommandoen “top”  inni i terminalen. I tabellen under vises de forskjellige resultatene gruppemedlemmene fikk.
 
 | Mosvold  | Søvre  | Jonas  | Elias  | Vegard  | Andrea  | Christoffer  |
-|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|
 | 132  | 122  | 125  | 126  | 122  | 124  | 126  |
 
 #### Kan man gi et nøyaktig antall? Begrunn. Hvor mange av prosessene som “kjører”?
@@ -21,14 +21,14 @@ Om prosessene ikke kjører er de i “sleep/idle” tilstand. De ligger inaktive
 
 #### Hvor mange CPU-“cores” har du tilgjengelig på din maskin?
 | Mosvold  | Søvre  | Jonas  | Vegard  | Andrea  | Christoffer  |
-|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|
 | 2  | 2  | 4  | 4  | 2  | 4  |
 
 #### Noter. Hvor mange CPU-”cores” har du tilgjengelig på din virtuelle server? 
 Ved å skrive inn kommandoen "lscpu" på den virtuelle serveren fant jeg ut av hvor mange CPU-”cores”. Resultatene under viser hva de forskjellige gruppemedlemmene fikk.
 
 | Mosvold  | Søvre  | Jonas  | Vegard  | Andrea  | Christoffer  |
-|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|
 | 2  | 2  | 2  | 2  | 2  | 2  |
 
 #### Noter. Finn ut hvilken prosess i ditt system bruker mest minne. Beskrive denne prosessen kort.
