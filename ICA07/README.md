@@ -30,9 +30,12 @@ Teoretisk sett kan en UDP pakke være 65,535 bytes (8 byte for "tittelen" og 65,
 ![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA07/Vedlegg/TCPclient.png)
 ![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA07/Vedlegg/TCPservclient.png)
 ## B
-### i
+### i 
+TCP garanterer at alle pakker som blir sent over et nettverk havner i riktig rekkefølge hos mottaker. Bekreftelsespakker blir sendt tilbake til sender for å forsikre om at mottaker har fått den riktige informasjonen. Dette er en mindre effektiv overføring enn UDP som ikke tar hensyn til omstokking.
 
 ### ii
+Teoretisk sett kan en IP pakke være 65535 bytes inkludert tittel. 
+I praksis sendes TCP pakker i størrelse av minste MTU, eller maximum transmission unit, denne maksimalen er forskjellig fra hviken teknologi som brukes, for eksempel er ethernet sin MTU 1500 bytes. Større pakker enn MTU kan sendes ved fragmentering.
 
 ### iii
 Fragmentering er en prosess som deler datagrammer i mindre biter, slik at de kan bli overført uten å overskride MTU grensen.
