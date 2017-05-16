@@ -62,6 +62,7 @@ sum_test oppgir feil hvis tallene i sum_tests_int8 (struct) overstiger den gitte
 Sorteringen i aksjon.
 
 ![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA02/Vedlegg/ICA0210.png)
+
 Benchmarking i aksjon.
 
 ![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA02/Vedlegg/ICA0209.png)
