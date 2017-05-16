@@ -7,7 +7,7 @@ func main() {
 
 	fmt.Println("Hello, 世界")
 	fmt.Println("Elias var her")
-
+	fmt.Println("Legger til dette")
 	fmt.Println("^gjorde noen flere endringer")
 	fmt.Println("nyann")
 	fmt.Println("Hallo, Jørgen MS var her")
