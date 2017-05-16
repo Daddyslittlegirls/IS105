@@ -1,17 +1,17 @@
-package main
+package log
 
 import "fmt"
 import "math"
 
-func log2(x float64){
+func Log2(x float64){
 	fmt.Println(math.Log2(x))
 }
 
-func logcli(x float64){
+func Logcli(x float64){
 	fmt.Println(math.Log2(x))
 }
 
-func logbcli(x float64, y int64) {
+func Logbcli(x float64, y int64) {
 	if y == 2 {
 		fmt.Println(math.Log2(x))
 	} else if y == 10 {
@@ -19,4 +19,4 @@ func logbcli(x float64, y int64) {
 	} else {
 		fmt.Println("Ugyldig nummer")
 	}
-}
+}cd
