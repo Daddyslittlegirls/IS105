@@ -59,7 +59,12 @@ Her ser man “hello” filen som kan kjøres på mac og “hello.exe” som kan
 sum_test oppgir feil hvis tallene i sum_tests_int8 (struct) overstiger den gitte talltypen. For eksempel hvis structen består av int8 variabler vil alt under -128 eller over 127 overstige int8. Dette er fordi int8 er en datatype som består av en byte. 
 
 ## Oppgave 4
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA02/Vedlegg/ICA0209.png)
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA02/Vedlegg/ICA0210.png)
 
+Bubble sort tester to tall opp mot hverandre, og bytter plass på dem hvis de er i feil rekkefølge. Bubble sort er ganske raskt, hvis det er snakk om et lite antall data. Quicksort bruker en "splitt-og-hersk" metode Første velger den er tilfeldig tall, og så sorteresr det  tallene i 3 deler. En del som er mindre enn det tilfeldige taller, en del som er det samme som det tilfeldige tallet og en del som er større enn det tilfeldige tallet. Fordelen med Quicksort er at det er veldig raskt og effektivt.
+
+##### Kilde: https://github.com/ZachOrr/golang-algorithms/blob/master/sorting/bubble-sort.go
 
 ## Oppgave 5
 #### Hva kan du si noe om antall prosesser og tråder, som programmet bruker på ditt system?
