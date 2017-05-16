@@ -1,7 +1,54 @@
-# IS105
+# ICA07
 
-Main kjøres med: go run main.go log.go
+# Oppgave 1
 
-locli kjøres med: <filnavn> Arg1(float)
+## A
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA07/Vedlegg/Server.png)
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA07/Vedlegg/Client.png)
+## B
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA07/Vedlegg/Resultat.png)
+## C
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA07/Vedlegg/Wireshark.png)
+### i
+#### 1
 
-logbcli kjøres med: <filnavn> Arg1(float) Arg2(int)
+#### 2
+Teoretisk sett kan en UDP pakke være 65,535 bytes (8 byte for "tittelen" og 65,527 bytes med data), men på grunn av IPv4 protokolen som trenger 20 bytes for IP adressen, blir det da plass til 65,507 bytes med data. De resterende 28 bytesene brukes da til UDP tittelen og IP adressen.
+
+### ii
+#### 1
+
+#### 2
+
+#### 3
+
+
+# Oppgave 2
+
+## A
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA07/Vedlegg/TCPserver.png)
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA07/Vedlegg/TCPclient.png)
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA07/Vedlegg/TCPservclient.png)
+## B
+### i 
+TCP garanterer at alle pakker som blir sent over et nettverk havner i riktig rekkefølge hos mottaker. Bekreftelsespakker blir sendt tilbake til sender for å forsikre om at mottaker har fått den riktige informasjonen. Dette er en mindre effektiv overføring enn UDP som ikke tar hensyn til omstokking.
+
+### ii
+Teoretisk sett kan en IP pakke være 65535 bytes inkludert tittel. 
+I praksis sendes TCP pakker i størrelse av minste MTU, eller maximum transmission unit, denne maksimalen er forskjellig fra hviken teknologi som brukes, for eksempel er ethernet sin MTU 1500 bytes. Større pakker enn MTU kan sendes ved fragmentering.
+
+### iii
+Fragmentering er en prosess som deler datagrammer i mindre biter, slik at de kan bli overført uten å overskride MTU grensen.
+
+### iv
+Man bruker UDP der fart er viktigst. Det er mest brukt steder hvor et par tapte pakker ikke ødelegger det som blir sendt. Streaming av videoer, VoIP og spill er eksempler på tjenester som utnytter UDP.
+
+TCP brukes på steder hvor man ikke er så opptatt er fart, men mer opptatt av at man får pakkene slik de var når de ble sendt. Noen gode eksempler er web, e-mail (SMTP/IMAP/POP) og overføring av filer (FTP).
+
+# Oppgave 3
+
+## A
+
+## B
+
+## C
