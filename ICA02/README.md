@@ -21,15 +21,15 @@ Om prosessene ikke kjører er de i “sleep/idle” tilstand. De ligger inaktive
 ![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA02/Vedlegg/ICA0201.png)
 
 #### Hvor mange CPU-“cores” har du tilgjengelig på din maskin?
-| Mosvold  | Søvre  | Jonas  | Vegard  | Andrea  | Christoffer  | Elias 
-|---|---|---|---|---|---|
-| 2  | 2  | 4  | 4  | 2  | 4  | 4
+| Mosvold  | Søvre  | Jonas  | Vegard  | Andrea  | Christoffer  | Elias |
+|---|---|---|---|---|---|---|
+| 2  | 2  | 4  | 4  | 2  | 4  | 4 |
 
 #### Noter. Hvor mange CPU-”cores” har du tilgjengelig på din virtuelle server? 
 Ved å skrive inn kommandoen "lscpu" på den virtuelle serveren fant jeg ut av hvor mange CPU-”cores”. Resultatene under viser hva de forskjellige gruppemedlemmene fikk.
 
-| Mosvold  | Søvre  | Jonas  | Vegard  | Andrea  | Christoffer  | Elias
-|---|---|---|---|---|---|
+| Mosvold  | Søvre  | Jonas  | Vegard  | Andrea  | Christoffer  | Elias| 
+|---|---|---|---|---|---|---|
 | 2  | 2  | 2  | 2  | 2  | 2  | 2  |
 
 #### Noter. Finn ut hvilken prosess i ditt system bruker mest minne. Beskrive denne prosessen kort.
