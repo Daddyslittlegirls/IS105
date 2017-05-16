@@ -48,7 +48,8 @@ Når vi har limt inn teksten så kan vi lagre den direkte på serveren våres. D
 
 Skrev GOOS=darwin for mac
 GOOS=windows for windows
-Dette skal skrives for “go build hello.go” for å velge hvilken plattform du vil lage en executable for. 
+Dette skal skrives for “go build hello.go” for å velge hvilken plattform du vil lage en executable for.
+
 ![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA02/Vedlegg/ICA0203.png)
 
 Her ser man “hello” filen som kan kjøres på mac og “hello.exe” som kan kjøres på windows.
