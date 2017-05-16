@@ -60,8 +60,10 @@ sum_test oppgir feil hvis tallene i sum_tests_int8 (struct) overstiger den gitte
 
 ## Oppgave 4
 Sorteringen i aksjon.
+
 ![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA02/Vedlegg/ICA0210.png)
 Benchmarking i aksjon.
+
 ![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA02/Vedlegg/ICA0209.png)
 
 Bubble sort tester to tall opp mot hverandre, og bytter plass på dem hvis de er i feil rekkefølge. Bubble sort er ganske raskt, hvis det er snakk om et lite antall data. Quicksort bruker en "splitt-og-hersk" metode Første velger den er tilfeldig tall, og så sorteresr det  tallene i 3 deler. En del som er mindre enn det tilfeldige taller, en del som er det samme som det tilfeldige tallet og en del som er større enn det tilfeldige tallet. Fordelen med Quicksort er at det er veldig raskt og effektivt.
