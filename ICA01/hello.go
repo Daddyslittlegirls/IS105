@@ -6,7 +6,8 @@ import "os"
 func main() {
 
 	fmt.Println("Hello, 世界")
-	fmt.Println("Elias var her XDD ! SISTE COMMIT EVER LOL")
+	fmt.Println("Elias var her")
+	fmt.Println("^gjorde noen flere endringer")
 	fmt.Println("Hallo, Jørgen MS var her")
 	fmt.Println("Hallo, Jonas her")
 	fmt.Println("Søvre var her")
