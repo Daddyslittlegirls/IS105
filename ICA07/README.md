@@ -13,6 +13,7 @@ For å kjøre de to programmene åpner man to vinduer i terminalen, hver av dem 
 ![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA07/Vedlegg/Resultat.png)
 ## C
 I wireshark kan man studere all nettverkstrafikk inn og ut fra en node. Øverst i søkefeltet kan man legge til filter, et udp filter vil vise all udp trafikk.
+
 ![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA07/Vedlegg/Wireshark.png)
 ### i
 #### 1
