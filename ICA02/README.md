@@ -5,11 +5,11 @@
 For å komme frem til dette åpnet vi taskmanageren som vi kom frem til ved bruk av kommandoen taskmgr i terminalen.
 
 #### Hvor mange prosesser som kjører på din virtuelle server i nettskyen? 
-For å finne ut av hvor mange prosesser som kjørte på den virtuelle server i nettskyen skrev jeg kommandoen “top”  inni i terminalen. I tabellen under vises de forskjellige resultatene gruppemedlemmene fikk.
+For å finne ut av hvor mange prosesser som kjørte på den virtuelle server i nettskyen skrev jeg kommandoen “top” i terminalen. I tabellen under vises de forskjellige resultatene gruppemedlemmene fikk.
 
-| Mosvold  | Søvre  | Jonas  | Elias  | Vegard  | Andrea  | Christoffer  |
-|---|---|---|---|---|---|---|
-| 132  | 122  | 125  | 126  | 122  | 124  | 126  |
+| Mosvold  | Søvre  | Jonas  | Elias  | Vegard  | Andrea  | Christoffer  | Dennis  |
+|---|---|---|---|---|---|---|---|
+| 132  | 122  | 125  | 126  | 122  | 124  | 126  | 122  |
 
 #### Kan man gi et nøyaktig antall? Begrunn. Hvor mange av prosessene som “kjører”?
 Det er kun 1 prosess som kjører foreløpig. Hvis man kobler seg på instancen sin og skriver “top” i kommandolinjen så kommer det opp en liste som viser alle prosesser som ligger i minnet. Den viser også hvilken prosesser som kjører og hvilken som er i “sleep” mode.
@@ -21,16 +21,16 @@ Om prosessene ikke kjører er de i “sleep/idle” tilstand. De ligger inaktive
 ![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA02/Vedlegg/ICA0201.png)
 
 #### Hvor mange CPU-“cores” har du tilgjengelig på din maskin?
-| Mosvold  | Søvre  | Jonas  | Vegard  | Andrea  | Christoffer  | Elias |
-|---|---|---|---|---|---|---|
-| 2  | 2  | 4  | 4  | 2  | 4  | 4 |
+| Mosvold  | Søvre  | Jonas  | Vegard  | Andrea  | Christoffer  | Elias | Dennis|
+|---|---|---|---|---|---|---|---|
+| 2  | 2  | 4  | 4  | 2  | 4  | 4 | 4 |
 
 #### Noter. Hvor mange CPU-”cores” har du tilgjengelig på din virtuelle server? 
 Ved å skrive inn kommandoen "lscpu" på den virtuelle serveren fant jeg ut av hvor mange CPU-”cores”. Resultatene under viser hva de forskjellige gruppemedlemmene fikk.
 
-| Mosvold  | Søvre  | Jonas  | Vegard  | Andrea  | Christoffer  | Elias| 
-|---|---|---|---|---|---|---|
-| 2  | 2  | 2  | 2  | 2  | 2  | 2  |
+| Mosvold  | Søvre  | Jonas  | Vegard  | Andrea  | Christoffer  | Elias | Dennis |
+|---|---|---|---|---|---|---|---|
+| 2  | 2  | 2  | 2  | 2  | 2  | 2  | 2  |
 
 #### Noter. Finn ut hvilken prosess i ditt system bruker mest minne. Beskrive denne prosessen kort.
 ![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA02/Vedlegg/ICA0202.png)
@@ -73,7 +73,7 @@ Bubble sort tester to tall opp mot hverandre, og bytter plass på dem hvis de er
 ##### Kilde: https://github.com/ZachOrr/golang-algorithms/blob/master/sorting/bubble-sort.go
 
 ## Oppgave 5
-#### Hva kan du si noe om antall prosesser og tråder, som programmet bruker på ditt system?
+#### Hva kan du si noe om antall prosesser og tråder, som programmet bruker på ditt system?
 ![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA02/Vedlegg/ICA0206.png)
 
 Øverste bilde ser vi at det er 4 tråder kjørende på serveren i denne prosessen boring01.
