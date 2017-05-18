@@ -3,11 +3,16 @@
 # Oppgave 1
 
 ## A
+Serverprogrammet lytter til port 1234. Om et klientprogram lykkes i å kommunisere med server vil det printes ut en hemmelig melding fra klient. Server vil gi beskjed til klient om at melding er mottat.
 ![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA07/Vedlegg/Server.png)
+
+Klientprogrammet lager en datagram-socket på port 1234. En melding skal overføres fra klient til server. En if settning ser til om meldingen overføres uten error, om error==nil, det vil si at det ikke skjedde noe feil,  vil programmet hoppe til neste linje etter medlingen er sent. En error print vil derimot komme frem om overføringen ikke lyktes. 
 ![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA07/Vedlegg/Client.png)
 ## B
+For å kjøre de to programmene åpner man to vinduer i terminalen, hver av dem kjører hver sin go fil. udpserver.go startes først, deretter udpklient.go, da vil meldignen automatisk sendes over fra klient til server og server vil gi en tilbakemelding.
 ![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA07/Vedlegg/Resultat.png)
 ## C
+I wireshark kan man studere all nettverkstrafikk inn og ut fra en node. Øverst i søkefeltet kan man legge til filter, et udp filter vil vise all udp trafikk.
 ![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA07/Vedlegg/Wireshark.png)
 ### i
 #### 1
