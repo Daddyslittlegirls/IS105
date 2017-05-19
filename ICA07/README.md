@@ -37,6 +37,10 @@ Teoretisk sett kan en UDP pakke være 65,535 bytes (8 byte for "tittelen" og 65,
 ### ii
 #### 1
 
+Over for eksempel WiFi er prosentandelen protokoll data hundre prosent totalt. Som nevnt tidligere kan pakker inneholde flere protokoller, i tillegg trenger ikke sub-protokollene summere opp til de øverste protokoll-lagene. For eksempel ser vi TCP ligger på 97,9% mens sub-protokollene som XMPP, SSL og HTTP kun summerer opp til 22,1%. Årsaken kan være TCP overheading, data som ikke bidrar til innhold av meldingen.
+
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA07/Vedlegg/wireshark-wifi-protocol.png)
+
 #### 2
 Det finnes to måter å filtere data på i wireshark; display filter og capture filter. 
 Ved å sette et display filter velger man hvilke capture files en vil se, for at display filteret skal fungere må wireshark ha fanget opp trafikk på capture filteret. Et capture filter brukes til å velge hvilke pakker som skal bli lagret på disken mens trafikk fanges opp. Capture filter bruker en BPF syntax, en modul som kjører i kjernen og kan derfor opprettholde høyt capture rate fordi pakkene ikke trenger å bevege seg fra rommet i kjernen til rommet til brukeren under filtering. Hva en kan filtere er definert og begrenset i forhold til et display filter.
@@ -85,3 +89,35 @@ TCP brukes på steder hvor man ikke er så opptatt er fart, men mer opptatt av a
 ## B
 
 ## C
+
+# Oppgave 4
+
+## A
+
+For å studere trafikken på nrk direkte tv må vi først trykke play, derretter gå inn på statistikk og velge conversations på wireshark. Vi huker av for TCP kommunikasjon og sorterer etter flest pakker overført, da vil vi få opp dette resultatet: 
+
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA07/Vedlegg/nrklivetv.png)
+
+Her streamer jeg serien SKAM på nrk nett tv. Legg merke til at resultatet er ganske likt, dette være seg at kvaliteten på streamen er lik for direkte tv og andre filer på bibloteket.
+
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA07/Vedlegg/nrknett.png)
+
+Til slutt, etter å ha lukket begge fanene sitter jeg igjen med github og fronter åpent. Her ser kommunikasjonen litt annerledens ut.
+
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA07/Vedlegg/ingenstream.png)
+
+## B
+
+Når vi analyserer en stream fra youtube er det lett å legge merke til kvaliteten som blir spilt av. Her spilte jeg av Apples superbowl reklame fra 1984 i 240p. Legg merke til byte forskjellen fra NRKs stream.
+
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA07/Vedlegg/applereklame.png)
+
+For å vise hvor stor forkjell kvaliteten på streamen kan utgjøre valgte jeg å streame en 4k video for å sammenligne med superbowl reklamen i 240p.
+
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA07/Vedlegg/4k.png)
+
+NRK lar deg ikke endre streamingkvalitet selv men heller kompanserer etter hvor rask forbinnelsen din er. For moroskyld prøve jeg meg frem på forskjellige youtubevideor med ulik kvalitet for å se hvilke som liknet mest på nrks.
+
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA07/Vedlegg/1080p.png)
+
+Svaret er at NRK mest sannsynlig streamer i 1080p.
