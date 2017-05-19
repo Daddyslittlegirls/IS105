@@ -72,6 +72,8 @@ Ved å skrive inn kommandoen "lscpu" på den virtuelle serveren fant jeg ut av h
 ![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA02/Vedlegg/ram.png)
 Kernel is utilized by the OS for all sort of operations such as disk writes, cpu controls, etc.
 
+På våres personlige PC-er har vi ulike programmer som er nedlastet og installert, vi bruker forskjellige operativsystemer, noen bruker mac, andre bruker windows. Mens på linux skyen har vi likt med programmer og det kjøres på et samme system. Derfor vil det være en forskjell på våres personlige pcer og mindre forskjell på den virituelle serveren vår.
+
 #### Hvilke komponenter (både fysiske og abstrakte) i deres datasystemer er involvert i oppstart, administrasjon og avslutning av prosesser? Definer komponentene du nevner
 
 Bios står for “Basic input og output system”. Bios er programmet I en pc's microprocessor som får  maskinen til å starte opp etter du har skrudd den på. Mikroprosessoren er datamaskinens processor på en microchip. Det er Biosens oppgave å “vekke” resten av maskinen når du skrur den på.  Du kan gjerne sammenligne det med å skru om nøkkel I en bil og motoren starter. Når du starter maskinen gir mikroprosessoren kontrollen til bios programmet.  Det er slags link mellom software hardware. Den håndterer dataflyt mellom maskinens operativsystem og tilkoblede enheter som harddisk, skjermkort, mus og tastatur.
