@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tekst til tale</title>
+
+</head>
+<body bgcolor="#1e95ea">
+<h2>Text to speech</h2>
+<h4> Skriv det du ønsker </h4>
+    <INPUT ID="tekst" TYPE="text" NAME="tekst" VALUE=""><P>
+    <INPUT TYPE="button" NAME="button" Value="Speak" onClick="toSound(tekst.value)">
+</FORM>
+
+<script>
+    function toSound(tekst) {
+        window.location.replace('http://158.37.63.143:8080/speech?text='+tekst);
+    }
+</script>
+
+</body>
+</html>
