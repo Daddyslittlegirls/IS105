@@ -6,8 +6,8 @@ Brukerscenario 2:
 Du har aldri vært i Kristiansand før, og besøker nettsiden for å finne ut litt mer. Inne på nettsiden ligger det en video om byen, og litt om hvor de forskjellige plassene ligger. Du finner fram til de forskjellig plassene ved å skrive det inn i søkemotoren. I tillegg kan du klikke den videre til å finne hvordan været har vært i det siste. Det gjør du ved å bare trykke på der været står.
 
 
-![](https://github.com/Daddyslittlegirls/IS105/blob/Andrea/ICA05/Bilder/Nettside%20del%201.png)
-![](https://github.com/Daddyslittlegirls/IS105/blob/Andrea/ICA05/Bilder/Nettside%20del%202.png)
+![](http://imgur.com/u2OSUsc)
+![](http://imgur.com/1jCp1sC)
 
 
 ### Her er HTML og server.go koden. 
