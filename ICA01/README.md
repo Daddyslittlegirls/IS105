@@ -11,6 +11,9 @@ ____________________________________________________
 
 **1.2.1**
 
+Vi brukte denne metoden som ble vist i undervisningen:
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA01/Bilder%20ICA01/Oppgaver%20Ica1.2.jpg)
+
 a)  1 = 00000001. 8 bits.
 
 b)  2 = 00000010. 8 bits.
@@ -22,8 +25,9 @@ d)  8 = 00001000. 8 bits.
 e)  16 = 0010000. 8 bits.
 
 f)  256 = 0000000100000000. 16 bits.
- 
 
+Vi brukte denne metoden som ble vist i undervisningen:
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA01/Bilder%20ICA01/Oppgaver%20ica1.jpg)
 a)  100 = 4
 
 b)  1001 = 9
