@@ -69,6 +69,11 @@ Vi lagde en funksjon som iterer over hele byteslicen og erstatter "Ø" i dette t
 Da ble resultet slik 
 ![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA03/Bilder/lang03%20-%20erstattet.png)
 
+## C
+Her måtte vi gå utenom steget hvor vi konverter stringen av byteslice til en ordentlig byteslice. Det ble derfor en veldig lang slice i kildekoden. Men poenger var her å illustrere hvordan vi kan erstatte alle spesifikke bytes. Så her er bildene før og etter.
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA03/Bilder/treasure%20-%20default.png)
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA03/Bilder/treasure%20-%20resultat.png)
+
 # Oppgave 4
 
 ## A
