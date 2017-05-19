@@ -68,3 +68,19 @@ Vi lagde en funksjon som iterer over hele byteslicen og erstatter "Ø" i dette t
 
 Da ble resultet slik 
 ![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA03/Bilder/lang03%20-%20erstattet.png)
+
+# Oppgave 4
+
+## A
+Her måtte det til en litt mer uelegant løsning for å få til oppgaven. Det er ikke akkurat samme løsningforslag som er i oppgaveteksten, men resultatet er sånn omtrent det samme.
+
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA03/Bilder/unicode1.png)
+
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA03/Bilder/unicode2.png)
+
+## B
+Denne "runen" er en alarmklokke, som man kan se i bildene.
+
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA03/Bilder/oppgave4b.png)
+
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA03/Bilder/oppgave4b2.png)
