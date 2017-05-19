@@ -1,10 +1,29 @@
-package fileutils
+package main
 
 import (
 	"io"
 	"log"
 	"os"
+	"fmt"
 )
+
+func main() {
+	fmt.Printf("%s \n", []byte(fileToByteslice("../files/lang01.wl")))
+	fmt.Printf("%s \n", []byte(fileToByteslice("../files/lang02.wl")))
+	fmt.Printf("%s \n", []byte(fileToByteslice("../files/lang03.wl")))
+	fmt.Printf("%s \n", []byte(editLetter(fileToByteslice("../files/lang03.wl"))))
+}
+
+// Sjekker hele byteslicen for hex verdien til "Ø" og erstatter den med "O"
+func editLetter(list []byte) []byte {
+	for i := 0; i < len(list); i++ {
+		if list[i] == 0xF8 {
+			list[i] = 0x6F
+		}
+	}
+
+	return list
+}
 
 func fileToByteslice(filename string) []byte {
 
@@ -31,6 +50,7 @@ func fileToByteslice(filename string) []byte {
 	if err != nil {
 		log.Fatal(err)
 	}
+
 	return byteSlice
 
 }
