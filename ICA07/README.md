@@ -37,6 +37,10 @@ Teoretisk sett kan en UDP pakke være 65,535 bytes (8 byte for "tittelen" og 65,
 ### ii
 #### 1
 
+Over for eksempel WiFi er prosentandelen protokoll data hundre prosent totalt. Som nevnt tidligere kan pakker inneholde flere protokoller, i tillegg trenger ikke sub-protokollene summere opp til de øverste protokoll-lagene. For eksempel ser vi TCP ligger på 97,9% mens sub-protokollene som XMPP, SSL og HTTP kun summerer opp til 22,1%. Årsaken kan være TCP overheading, data som ikke bidrar til innhold av meldingen.
+
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA07/Vedlegg/wireshark-wifi-protocol.png)
+
 #### 2
 Det finnes to måter å filtere data på i wireshark; display filter og capture filter. 
 Ved å sette et display filter velger man hvilke capture files en vil se, for at display filteret skal fungere må wireshark ha fanget opp trafikk på capture filteret. Et capture filter brukes til å velge hvilke pakker som skal bli lagret på disken mens trafikk fanges opp. Capture filter bruker en BPF syntax, en modul som kjører i kjernen og kan derfor opprettholde høyt capture rate fordi pakkene ikke trenger å bevege seg fra rommet i kjernen til rommet til brukeren under filtering. Hva en kan filtere er definert og begrenset i forhold til et display filter.
