@@ -116,3 +116,8 @@ For å vise hvor stor forkjell kvaliteten på streamen kan utgjøre valgte jeg �
 
 ![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA07/Vedlegg/4k.png)
 
+NRK lar deg ikke endre streamingkvalitet selv men heller kompanserer etter hvor rask forbinnelsen din er. For moroskyld prøve jeg meg frem på forskjellige youtubevideor med ulik kvalitet for å se hvilke som liknet mest på nrks.
+
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA07/Vedlegg/1080p.png)
+
+Svaret er at NRK mest sannsynlig streamer i 1080p.
