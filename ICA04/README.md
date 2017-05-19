@@ -3,7 +3,7 @@
 # Oppgave 1
 
 ## A
-I Windows har filene samme størrelse, men på GitHub har de forskjellig størrelse. De har like “byte slices”. Grunnlag for at den ene er større enn den andre er at det brukes forskjellige metoder for linjeskift på Linux, Mac og Windows.
+I Windows har filene samme størrelse, men på GitHub har de forskjellig størrelse. Når filene blir lastet ned fra GitHub til en Windows maskin blir filene konvertert for å kunne leses i Windows, og da ender filene opp med å bli den samme størrelsen. De har like “byte slices”. Grunnlag for at den ene er større enn den andre er at det brukes forskjellige metoder for linjeskift på Linux, Mac og Windows.
 
 ![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA04/Bilder/Skjermbilde%202017-05-19%20kl.%2014.32.58.png)
 
