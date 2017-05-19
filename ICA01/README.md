@@ -26,7 +26,7 @@ e)  16 = 0010000. 8 bits.
 
 f)  256 = 0000000100000000. 16 bits.
 
-Vi brukte denne metoden som ble vist i undervisningen:
+Vi brukte denne metoden for å løse oppgaven:
 ![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA01/Bilder%20ICA01/Oppgaver%20ica1.jpg)
 a)  100 = 4
 
