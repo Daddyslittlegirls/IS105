@@ -55,8 +55,13 @@ Når vi fanger opp kommunikasjon fra nettverkskortet ser vi et stort mangfold av
 
 ## A
 ![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA07/Vedlegg/TCPserver.png)
+
 ![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA07/Vedlegg/TCPclient.png)
+
 ![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA07/Vedlegg/TCPservclient.png)
+
+#### Kilde: https://systembash.com/a-simple-go-tcp-server-and-tcp-client/
+
 ## B
 ### i 
 TCP garanterer at alle pakker som blir sent over et nettverk havner i riktig rekkefølge hos mottaker. Bekreftelsespakker blir sendt tilbake til sender for å forsikre om at mottaker har fått den riktige informasjonen. Dette er en mindre effektiv overføring enn UDP som ikke tar hensyn til omstokking.
