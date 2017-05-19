@@ -90,6 +90,17 @@ Skrev GOOS=darwin for mac
 GOOS=windows for windows
 Dette skal skrives for “go build hello.go” for å velge hvilken plattform du vil lage en executable for.
 
+
+For å gjøre det på windows trenger man å skrive “go build hello.go “, da vil man få en exe fil som kan kjøres på windows. For å builde en fil på serveren må vi skrive 
+“GOOS=linux GOARCH=amd64 go build v hello.go “	da vil man få en hello fil som er kjørbar på linux serveren.
+
+For å overføre den filen fra pcn til serveren brukte vi filezilla. Når filen var over hadde den ikke rettigheter til å kjøres, så da kunne man skrive chmod 777 eller 744. Da vil man få rettigheter på serveren for å kjøre filen. 
+
+777 = alle rettigheter
+744 = bare eier
+
+
+
 ![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA02/Vedlegg/ICA0203.png)
 
 Her ser man “hello” filen som kan kjøres på mac og “hello.exe” som kan kjøres på windows.
