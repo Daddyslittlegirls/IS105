@@ -18,7 +18,7 @@ Når en prosess med tilstand “S”(Sleeping) betyr hovedsakelig at prosessen i
 
 #### Hvis de ikke kjører, hvilke tilstander befinner de seg da?
 Om prosessene ikke kjører er de i “sleep/idle” tilstand. De ligger inaktive og venter på input for at de skal kjøre.
-I Linux og Windows finnes det forskjellige states en prosess kan være i. 
+I Linux og Windows finnes det forskjellige states en prosess kan være i;
 ## Linux
 
 #### Running:
@@ -73,6 +73,8 @@ Ved å skrive inn kommandoen "lscpu" på den virtuelle serveren fant jeg ut av h
 Kernel is utilized by the OS for all sort of operations such as disk writes, cpu controls, etc.
 
 På våres personlige PC-er har vi ulike programmer som er nedlastet og installert, vi bruker forskjellige operativsystemer, noen bruker mac, andre bruker windows. Mens på linux skyen har vi likt med programmer og det kjøres på et samme system. Derfor vil det være en forskjell på våres personlige pcer og mindre forskjell på den virituelle serveren vår.
+
+Et program som inneholder masse instrukser, så om vi starter et program på pcn våres eller på skyen vil det programmet utføre alle instruksene som er gitt
 
 #### Hvilke komponenter (både fysiske og abstrakte) i deres datasystemer er involvert i oppstart, administrasjon og avslutning av prosesser? Definer komponentene du nevner
 
