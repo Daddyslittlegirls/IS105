@@ -33,6 +33,12 @@ Teoretisk sett kan en UDP pakke være 65,535 bytes (8 byte for "tittelen" og 65,
 #### 1
 
 #### 2
+Det finnes to måter å filtere data på i wireshark; display filter og capture filter. 
+Ved å sette et display filter velger man hvilke capture files en vil se, for at display filteret skal fungere må wireshark ha fanget opp trafikk på capture filteret. Et capture filter brukes til å velge hvilke pakker som skal bli lagret på disken mens trafikk fanges opp. Capture filter bruker en BPF syntax, en modul som kjører i kjernen og kan derfor opprettholde høyt capture rate fordi pakkene ikke trenger å bevege seg fra rommet i kjernen til rommet til brukeren under filtering. Hva en kan filtere er definert og begrenset i forhold til et display filter.
+
+For å effektivt finne frem til relevante meldinger kan man bruke filter som for eksempel http, tcp eller udp. Da vil kun de valgte meldingene komme opp, wireshark har også ferdig definerte filter man kan velge mellom. Om man vil være mer spesifikk, la oss si du kun vil følge med på http GET repons, kan man skrive inn filteret: http.request.method == "get". På samme måte som i programmeringsspråk kan man bruke tegnene || til å velge og/eller. Filteret: http.request.method == "get" || (http.request.method == "POST") vil vise all http GET og POST trafikk om det finnes noen.
+
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA07/Vedlegg/wireshark-filter.png)
 
 #### 3
 
