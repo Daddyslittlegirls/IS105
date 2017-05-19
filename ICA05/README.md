@@ -1,10 +1,7 @@
 # IS105
 
-Main kjøres med: go run main.go log.go
-
-locli kjøres med: <filnavn> Arg1(float)
-
-logbcli kjøres med: <filnavn> Arg1(float) Arg2(int)
+![](https://github.com/Daddyslittlegirls/IS105/blob/Andrea/ICA05/Bilder/Nettside%20del%201.png)
+![](https://github.com/Daddyslittlegirls/IS105/blob/Andrea/ICA05/Bilder/Nettside%20del%202.png)
 
 
 ## her er html og server.go koden. 
