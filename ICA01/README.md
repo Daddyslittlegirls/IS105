@@ -10,6 +10,7 @@ ____________________________________________________
 # ICA01
 
 **1.2.1**
+
 a)  1 = 00000001. 8 bits.
 
 b)  2 = 00000010. 8 bits.
@@ -33,6 +34,7 @@ For å konvertere de binære tallene til titallsystemet brukte vi potenser av 2.
 
 
 **1.2.2**
+
 Flere personer prøver å gjette et tresifret (3-bit) binært tall.
 (1) Lise har fått vite / lærer at tallet er et oddetall.
 (2) Per har fått vite at tallet er IKKE et multiplum av 3 (dvs. ikke 0, 3, 6).
@@ -56,6 +58,7 @@ Log^2(1/(M/N)) = log^2(N/M) bits
 
 
 **1.2.3:**
+
 Link til våre Githubs:
 https://github.com/Chopflox/is105-uke04v2
 https://github.com/vegardst/is105-uke04
@@ -70,6 +73,7 @@ https://github.com/Daddyslittlegirls/IS105
 
 
 **1.2.4**
+
 1)	Hvilken fordeler og ulemper har en git-flow-modell med en hovedrepository?
 Fordeler:
 - Alle medlemmer kan jobbe med sin egen branch.
@@ -93,6 +97,7 @@ Ulemper:
 
 
 **3)	Hvilke forskjeller ser dere i forhold til programmeringsspråket Java?**
+
 - Det er ikke objektorientert programmeringsspråk.
 - Compile tiden generelt mye kjappere.
 - Mindre kode
@@ -104,14 +109,17 @@ Ulemper:
 
 
 **4)	Hvilke viktige poeng illusterer denne øvelsen når det gjelder bruk av et programmeringsmiljø på en plattform?**
+
 Et programmeringsmiljø lar deg ta i bruk pakker fra standardbiblioteket ved hjelp av environment variabler i systemet. Du kan sette workpath til prosjekter du holder på med slik at systemet vet hvor det kan finne pakkene du referer til.
 
 
 **5)	Er det hensiktsmessig å legge inn denne filen i git repository? Begrunn svaret!**  	
+
 Github er ment for å dele kildekode og i lengden vil det være unødvendig mye arbeid å oppdatere den kjørbare filen konstant, ettersom endringer er hyppige. I tillegg er kjørbare filer som regel spesifikke til enkelte operativsystem, og derfor ikke gunstige når de skal deles blant flere folk. 
 
 
 **6)	Hvordan skiller pakken log, som dere har implementert, seg fra andre pakker i go, for eksempel, fmt?**
+
 Pakken log stammer fra lokalt, den er selvlaget og skal beregne logaritme med base 2 og 10. Denne pakken importeres lokalt, mens feks fmt blir importert fra standardbiblioteket
 
 
