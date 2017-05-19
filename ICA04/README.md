@@ -45,7 +45,7 @@ Resultat på Mac:
 
 Resultat på Windows:
 
-![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA04/Bilder/Skjermbilde%202017-05-19%20kl.%2014.34.05.png)
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA04/Bilder/oppg2c.png)
 
 Mac og Windows får nesten like resultatet når vi sjekker “pg100.txt”, det eneste som skiller Mac og Windows er rettighetene til filen og hvordan størrelsen blir representert. Windows har større rettigheter enn på mac. På instansen får vi “is not a regular file” og “Is a device file”, men det er omvendt på mac og windows. 
 
