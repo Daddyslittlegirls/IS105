@@ -111,3 +111,8 @@ Til slutt, etter å ha lukket begge fanene sitter jeg igjen med github og fronte
 Når vi analyserer en stream fra youtube er det lett å legge merke til kvaliteten som blir spilt av. Her spilte jeg av Apples superbowl reklame fra 1984 i 240p. Legg merke til byte forskjellen fra NRKs stream.
 
 ![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA07/Vedlegg/applereklame.png)
+
+For å vise hvor stor forkjell kvaliteten på streamen kan utgjøre valgte jeg å streame en 4k video for å sammenligne med superbowl reklamen i 240p.
+
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA07/Vedlegg/4k.png)
+
