@@ -89,3 +89,19 @@ TCP brukes på steder hvor man ikke er så opptatt er fart, men mer opptatt av a
 ## B
 
 ## C
+
+# Oppgave 4
+
+## A
+
+For å studere trafikken på nrk direkte tv må vi først trykke play, derretter gå inn på statistikk og velge conversations på wireshark. Vi huker av for TCP kommunikasjon og sorterer etter flest pakker overført, da vil vi få opp dette resultatet: 
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA07/Vedlegg/nrklivetv.png)
+Her streamer jeg serien SKAM på nrk nett tv. Legg merke til at resultatet er ganske likt, dette være seg at kvaliteten på streamen er lik for direkte tv og andre filer på bibloteket.
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA07/Vedlegg/nrknett.png)
+Til slutt, etter å ha lukket begge fanene sitter jeg igjen med github og fronter åpent. Her ser kommunikasjonen litt annerledens ut.
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA07/Vedlegg/ingenstream.png)
+
+## B
+
+Når vi analyserer en stream fra youtube er det lett å legge merke til kvaliteten som blir spilt av. Her spilte jeg av Apples superbowl reklame fra 1984 i 240p. Legg merke til byte forskjellen fra NRKs stream.
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA07/Vedlegg/applereklame.png)
