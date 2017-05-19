@@ -14,3 +14,5 @@ Server-filen er lånt ifra https://github.com/Zwirc/IS-105/tree/master/ICA06/src
 Tale til tekst:
 Vi brukte eksempelet:https://github.com/amsehili/gspeech-rec. 
 For å kunne kjøre denne lastet vi ned HomeBrew, for å kunne laste end sox med flac og wget. For å kjøre shell-filen, bruker man kommandoen ./speech-rec.sh.
+
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA06/Bilder/Tale%20til%20tekst.png)
