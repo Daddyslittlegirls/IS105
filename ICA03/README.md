@@ -42,3 +42,14 @@ Her kan det være bedre å se på andre verb for print som foreksempel %c, eller
 Her sjekker koden hvert tegn for å se om verdien tilsvarer et av de vanlige ASCII tegnene, istedet for et av de utvidede. Ettersom det var vanlige tegn i byteslicen \x20\ for eksempel, så resulterte testen i fail.
 
 ![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA03/Bilder/TestExtendedGreetingASCII%20-%20resultat.png)
+
+# Oppgave 3
+
+## A
+
+Her eksperimenterte vi litt med de forskjellene konverteringene, og representeringene av symboler. Ettersom eksperimentering er kommentert gjennom koden, legger vi med et bilde av den her. 
+
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA03/Bilder/Oppgave%203a%20-%20Kode.png)
+
+Og resultet av å kjøre koden ser slik ut 
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA03/Bilder/Oppgave%203a%20-%20Resultat.png)
