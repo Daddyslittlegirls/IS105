@@ -13,6 +13,7 @@ Server-filen er lånt ifra https://github.com/Zwirc/IS-105/tree/master/ICA06/src
 # Eksperiment 3
 Tale til tekst:
 Vi brukte eksempelet:https://github.com/amsehili/gspeech-rec. 
-For å kunne kjøre denne lastet vi ned HomeBrew, for å kunne laste end sox med flac og wget. For å kjøre shell-filen, bruker man kommandoen ./speech-rec.sh.
+Vi lastet ned HomeBrew for å installere flac og wget. HomeBrew er en package-manager for Mac. Samme som at APT er for Linux. Dette er tilleggsprogrammer scriptet trenger for å kjøre. Dette kalles Dependencies.
+For å kjøre shell-filen, bruker man kommandoen ./speech-rec.sh. Koden ligger under filen speech-rec.sh.
 
 ![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA06/Bilder/Tale%20til%20tekst.png)
