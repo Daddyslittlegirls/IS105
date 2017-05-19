@@ -46,7 +46,10 @@ For å effektivt finne frem til relevante meldinger kan man bruke filter som for
 ![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA07/Vedlegg/wireshark-filter.png)
 
 #### 3
+Tidligere i oppgaven analyserte vi loopback capture, data sendt innenfor vår lokale node. Her så vi de samme kildene og destinasjonene gå igjen, som 127.0.0.1 som er localhost og 192.168.1 som er ruteren. Det er lettere å finne ut hvor data kommer fra og hvor det ender opp hen på det lokale nettverket, det er som regel en aktivitet som er kjent for brukeren.
+Når vi fanger opp kommunikasjon fra nettverkskortet ser vi et stort mangfold av IP adresser og protokoller, dette kan være trafikk fra egen node eller andre brukere av det samme nettverket. Vi ser tydelig at det er flere måter å kommunisere på via NIC, et større pool av protokoller. På bildet under ser man en encrypted handshake message, dette er en kobling mellom server og klient ved TLS v1.0 protokoll. Fremgangsmåten består av flere sekvenser; client hello, server hello, certificate, server hello done, client key exchange og change Cipher Spec. Det er altså flere ledd i komunikasjonen, det er viktig at informasjonen som overføres skal havne hos riktig mottaker og forstås på korrekt måte. 
 
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA07/Vedlegg/wireshark-wifi.png)
 
 # Oppgave 2
 
