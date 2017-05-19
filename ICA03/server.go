@@ -23,7 +23,5 @@ func foo(w http.ResponseWriter, r *http.Request) {
 
 	// Her skriver man data som er respons til brukeren som har skrevet
 	// http://localhost:3000 i sin nettleser
-	w.Write([]byte("<font color=\"green\">Hvordan g\xe5r det, <b>\u16a6</b> ?</font><br/>"))
-	w.Write([]byte("\u16a6 - Thurs<br/>"))
-
+	w.Write([]byte("<font size=40>\u23F0"))
 }
