@@ -133,7 +133,7 @@ Bubble sort tester to tall opp mot hverandre, og bytter plass på dem hvis de er
 Tråder: 5
 Prosess: 1
 #### Hvilken tilstand befinner den seg i?
-Aktiv. 
+Sleeping. 
 #### Hvordan kan du stoppe prosessen? 
 Ctrl + C
 										
