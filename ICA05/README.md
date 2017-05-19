@@ -5,3 +5,5 @@ Main kjøres med: go run main.go log.go
 locli kjøres med: <filnavn> Arg1(float)
 
 logbcli kjøres med: <filnavn> Arg1(float) Arg2(int)
+
+![](https://github.com/Daddyslittlegirls/IS105/tree/master/ICA05/templates/kode.png)
