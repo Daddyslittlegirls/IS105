@@ -75,6 +75,7 @@ https://github.com/Daddyslittlegirls/IS105
 **1.2.4**
 
 1)	Hvilken fordeler og ulemper har en git-flow-modell med en hovedrepository?
+
 Fordeler:
 - Alle medlemmer kan jobbe med sin egen branch.
 - Man slipper merge konflikter
