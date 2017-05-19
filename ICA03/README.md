@@ -53,3 +53,18 @@ Her eksperimenterte vi litt med de forskjellene konverteringene, og representeri
 
 Og resultet av å kjøre koden ser slik ut 
 ![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA03/Bilder/Oppgave%203a%20-%20Resultat.png)
+
+## B
+
+Utskriften fra hver av filene ser slik ut. 
+
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA03/Bilder/lang01%20-%20default.png)
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA03/Bilder/lang02%20-%20default.png)
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA03/Bilder/lang03%20-%20default.png)
+
+Vi lagde en funksjon som iterer over hele byteslicen og erstatter "Ø" i dette tilfellet med "O" for å demonstrere.
+
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA03/Bilder/editLetter.png)
+
+Da ble resultet slik 
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA03/Bilder/lang03%20-%20erstattet.png)
