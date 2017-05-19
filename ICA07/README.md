@@ -18,6 +18,8 @@ I wireshark kan man studere all nettverkstrafikk inn og ut fra en node.  Øverst
 
 ![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA07/Vedlegg/wireshark-inspect.png)
 
+# kilde: http://stackoverflow.com/questions/26028700/write-to-client-udp-socket-in-go
+
 ### i
 
 #### 1
