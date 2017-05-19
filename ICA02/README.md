@@ -13,9 +13,45 @@ For å finne ut av hvor mange prosesser som kjørte på den virtuelle server i n
 
 #### Kan man gi et nøyaktig antall? Begrunn. Hvor mange av prosessene som “kjører”?
 Det er kun 1 prosess som kjører foreløpig. Hvis man kobler seg på instancen sin og skriver “top” i kommandolinjen så kommer det opp en liste som viser alle prosesser som ligger i minnet. Den viser også hvilken prosesser som kjører og hvilken som er i “sleep” mode.
+Når en prosess med tilstand “S”(Sleeping) betyr hovedsakelig at prosessen ikke gjør noe. Det er statusen til en prosess som ikke gjør noe.  Hadde den vært i en normal “state” ville den brukt mer prosessorkraft i de fleste tilfellene.
+
 
 #### Hvis de ikke kjører, hvilke tilstander befinner de seg da?
 Om prosessene ikke kjører er de i “sleep/idle” tilstand. De ligger inaktive og venter på input for at de skal kjøre.
+I Linux og Windows finnes det forskjellige states en prosess kan være i. 
+## Linux
+
+### Running:
+Dette er en state en prosess er i enten når den kjører eller når den er klar til å kjøre
+
+### Interruptible:
+dette er en blokkert state. En prosess som venter på at den skal få et signal fra en annen prosess. 
+
+### Uninterruptible:
+Dette er også en blokkert state. Denne prosessen er blokkert til et signal fra hardware’t sier motsatt
+Stopped: når prosessen er ferdig, vil det stå “Stopped, da kan man starte den på nytt.
+
+### Zombie:
+i denne staten vil prossessen bli terminert og informasjonen vil bli synlig.
+
+## Windows
+
+### Created:
+Dette er når en prosess er laget og den avventer instrukser. 
+
+### Ready:
+Dette er når en prosess er klar og venter på utførelse av CPU
+
+### Running:
+Dette er når prosessen kjører og er klar for å bli utført. 
+
+### Blocked:
+Dette er en blocked state, når en prosess ikke fungerer, for eksempel at du skal printe noe, men du har ikke koblet til en printer.
+
+### Terminated:
+Dette er staten til prosessen når den enten er ferdig med jobben sin, eller når den har blitt fjerna. 
+
+
 
 #### Hva er maskinvarespesifikasjon til din datamaskin (noter prosessortype, prosessorarkitektur, klokkefrekvens, informasjon om primært minne, størrelse på cache (både L1, L2 og L3 er ønskelig))?
 ![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA02/Vedlegg/ICA0201.png)
