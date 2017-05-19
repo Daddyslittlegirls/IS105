@@ -1,7 +1,7 @@
 # ICA06
 
 # Eksperiment 1
-![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA06/Bilder/Skjermbilde2017-05-19kl.16.21.14.png)
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA06/Bilder/Skjermbilde%2017-05-19%kl.16.21.14.png)
 # Eksperiment 2
 Tekst til tale:
 Her kjørte vi en container gjennom docker på server som var hostet på port 8080 på instansen vår. 
