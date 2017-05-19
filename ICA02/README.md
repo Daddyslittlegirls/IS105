@@ -21,34 +21,34 @@ Om prosessene ikke kjører er de i “sleep/idle” tilstand. De ligger inaktive
 I Linux og Windows finnes det forskjellige states en prosess kan være i. 
 ## Linux
 
-### Running:
+#### Running:
 Dette er en state en prosess er i enten når den kjører eller når den er klar til å kjøre
 
-### Interruptible:
+#### Interruptible:
 dette er en blokkert state. En prosess som venter på at den skal få et signal fra en annen prosess. 
 
-### Uninterruptible:
+#### Uninterruptible:
 Dette er også en blokkert state. Denne prosessen er blokkert til et signal fra hardware’t sier motsatt
 Stopped: når prosessen er ferdig, vil det stå “Stopped, da kan man starte den på nytt.
 
-### Zombie:
+#### Zombie:
 i denne staten vil prossessen bli terminert og informasjonen vil bli synlig.
 
 ## Windows
 
-### Created:
+#### Created:
 Dette er når en prosess er laget og den avventer instrukser. 
 
-### Ready:
+#### Ready:
 Dette er når en prosess er klar og venter på utførelse av CPU
 
-### Running:
+#### Running:
 Dette er når prosessen kjører og er klar for å bli utført. 
 
-### Blocked:
+#### Blocked:
 Dette er en blocked state, når en prosess ikke fungerer, for eksempel at du skal printe noe, men du har ikke koblet til en printer.
 
-### Terminated:
+#### Terminated:
 Dette er staten til prosessen når den enten er ferdig med jobben sin, eller når den har blitt fjerna. 
 
 
