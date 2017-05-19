@@ -11,9 +11,9 @@ logbcli kjøres med: <filnavn> Arg1(float) Arg2(int)
 
 #### HTML
 
-![](https://github.com/Daddyslittlegirls/IS105/tree/master/ICA05/templates/kode.png)
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA05/templates/kode.png)
 
 
 #### server.go
 
-![](https://github.com/Daddyslittlegirls/IS105/tree/master/ICA05/templates/kode2.png)
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA05/templates/kode2.png)
