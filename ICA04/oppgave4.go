@@ -2,7 +2,8 @@ package oppgaver
 
 //////////////////////////////////
 // 	ICA04, IS-105	 	//
-// 	2017, 	Erlend Wiklem	//
+// 	2017, 	Erlend Wiklem
+//	https://github.com/Zwirc//
 //////////////////////////////////
 import (
 	"./huffman"
