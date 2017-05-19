@@ -33,7 +33,7 @@ Ved å skrive inn kommandoen "lscpu" på den virtuelle serveren fant jeg ut av h
 | 2  | 2  | 2  | 2  | 2  | 2  | 2  | 2  |
 
 #### Noter. Finn ut hvilken prosess i ditt system bruker mest minne. Beskrive denne prosessen kort.
-![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA02/Vedlegg/hva tar ram.png)
+![](https://github.com/Daddyslittlegirls/IS105/blob/master/ICA02/Vedlegg/hvatarram.png)
 Kernel is utilized by the OS for all sort of operations such as disk writes, cpu controls, etc.
 
 #### Hvilke komponenter (både fysiske og abstrakte) i deres datasystemer er involvert i oppstart, administrasjon og avslutning av prosesser? Definer komponentene du nevner
