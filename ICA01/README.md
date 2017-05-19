@@ -10,22 +10,29 @@ ____________________________________________________
 # ICA01
 
 **1.2.1**
-
 a)  1 = 00000001. 8 bits.
+
 b)  2 = 00000010. 8 bits.
+
 c)  5 = 00000101. 8 bits.
+
 d)  8 = 00001000. 8 bits.
+
 e)  16 = 0010000. 8 bits.
+
 f)  256 = 0000000100000000. 16 bits.
  
+ 
 a)  100 = 4
+
 b)  1001 = 9
+
 c)  1100110011 = 411
 
 For å konvertere de binære tallene til titallsystemet brukte vi potenser av 2. Vi begynte med den laveste potensen (2^0) og startet fra høyre og leste til venstre. For hvert binærtall øker vi opphøyning med 1. (2^1*1, 2^2*1). Så må 2-tallspotensen bare multipliseres med det binære tallet i rekken.
 
-**1.2.2**
 
+**1.2.2**
 Flere personer prøver å gjette et tresifret (3-bit) binært tall.
 (1) Lise har fått vite / lærer at tallet er et oddetall.
 (2) Per har fått vite at tallet er IKKE et multiplum av 3 (dvs. ikke 0, 3, 6).
@@ -47,6 +54,7 @@ Log^2(1/(M/N)) = log^2(N/M) bits
 
 (4) Log^2(1/(1/8) = log^2(8/1)) = log^2(8) = 3 bit
 
+
 **1.2.3:**
 Link til våre Githubs:
 https://github.com/Chopflox/is105-uke04v2
@@ -59,6 +67,7 @@ https://github.com/ChristofferO/is105-uke04-ny
  
 Link til vår Gruppegithub:
 https://github.com/Daddyslittlegirls/IS105
+
 
 **1.2.4**
 1)	Hvilken fordeler og ulemper har en git-flow-modell med en hovedrepository?
@@ -82,7 +91,8 @@ Ulemper:
 ○     .acm, .ax, .cpl, .dll, .drv, .efi,.exe, .mui, .ocx, .scr, .sys, .tsp	
 ●   De har forskjellige objektfil-formater på grunn av gamle standarder/gamle systemer.
 
-3)	Hvilke forskjeller ser dere i forhold til programmeringsspråket Java?
+
+**3)	Hvilke forskjeller ser dere i forhold til programmeringsspråket Java?**
 - Det er ikke objektorientert programmeringsspråk.
 - Compile tiden generelt mye kjappere.
 - Mindre kode
@@ -92,13 +102,16 @@ Ulemper:
 - Skrive funksjoner inne i funksjoner, og kan returnere funksjoner akkurat som i et funksjonelt språk og lokale variabler rundt det         tjener som variabler i en closure.
 - Funksjoner returner ikke bare en enkel verdi, men flere verdier.
 
-4)	Hvilke viktige poeng illusterer denne øvelsen når det gjelder bruk av et programmeringsmiljø på en plattform? 
+
+**4)	Hvilke viktige poeng illusterer denne øvelsen når det gjelder bruk av et programmeringsmiljø på en plattform?**
 Et programmeringsmiljø lar deg ta i bruk pakker fra standardbiblioteket ved hjelp av environment variabler i systemet. Du kan sette workpath til prosjekter du holder på med slik at systemet vet hvor det kan finne pakkene du referer til.
 
-5)	Er det hensiktsmessig å legge inn denne filen i git repository? Begrunn svaret!   	
+
+**5)	Er det hensiktsmessig å legge inn denne filen i git repository? Begrunn svaret!**  	
 Github er ment for å dele kildekode og i lengden vil det være unødvendig mye arbeid å oppdatere den kjørbare filen konstant, ettersom endringer er hyppige. I tillegg er kjørbare filer som regel spesifikke til enkelte operativsystem, og derfor ikke gunstige når de skal deles blant flere folk. 
 
-6)	Hvordan skiller pakken log, som dere har implementert, seg fra andre pakker i go, for eksempel, fmt?
+
+**6)	Hvordan skiller pakken log, som dere har implementert, seg fra andre pakker i go, for eksempel, fmt?**
 Pakken log stammer fra lokalt, den er selvlaget og skal beregne logaritme med base 2 og 10. Denne pakken importeres lokalt, mens feks fmt blir importert fra standardbiblioteket
 
 
